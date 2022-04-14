@@ -7,6 +7,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ECommerce_MVC_Project.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace ECommerce_MVC_Project
 {
@@ -23,6 +26,16 @@ namespace ECommerce_MVC_Project
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddScoped<IData,DBData>();
+            services.AddDbContext<ProductContext>(options => options.UseSqlServer("Server=Desktop-TN2F3BI;Database=GloboShoes;Trusted_Connection=True;MultipleActiveResultSets=True"));
+            services.AddIdentity<User, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 8;
+
+            }).AddEntityFrameworkStores<UserContext>();
+            services.AddDbContext<UserContext>(options => options.UseSqlServer("Server=Desktop-TN2F3BI;Database=Customers;Trusted_Connection=True;MultipleActiveResultSets=True"
+
+                ));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
