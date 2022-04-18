@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 using ECommerce_MVC_Project.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+
+
 
 namespace ECommerce_MVC_Project
 {
@@ -27,15 +30,31 @@ namespace ECommerce_MVC_Project
         {
             services.AddControllersWithViews();
             services.AddScoped<IData,DBData>();
-            services.AddDbContext<ProductContext>(options => options.UseSqlServer("Server=Desktop-TN2F3BI;Database=GloboShoes;Trusted_Connection=True;MultipleActiveResultSets=True"));
-            services.AddIdentity<User, IdentityRole>(options =>
+            //services.AddDbContext<ProductContext>(options => options.UseSqlServer("Server=Desktop-TN2F3BI;Database=LacedUp;Trusted_Connection=True;MultipleActiveResultSets=True"));
+            //services.AddIdentity<User, IdentityRole>(options =>
+            //{
+            //    options.Password.RequiredLength = 8;
+
+            //}).AddEntityFrameworkStores<UserContext>();
+            //services.AddDbContext<UserContext>(options => options.UseSqlServer("Server=Desktop-TN2F3BI;Database=LacedUpUsers;Trusted_Connection=True;MultipleActiveResultSets=True"
+
+            //    ));
+
+            services.AddDbContext<ApplicationDBContext>
+        }
+        static async Task CreateRoles(RoleManager<IdentityRole> roleManager)
+        {
+            string[] rolenames = { "Admin", "Customer" };
+            foreach (var rolename in rolenames)
             {
-                options.Password.RequiredLength = 8;
-
-            }).AddEntityFrameworkStores<UserContext>();
-            services.AddDbContext<UserContext>(options => options.UseSqlServer("Server=Desktop-TN2F3BI;Database=Customers;Trusted_Connection=True;MultipleActiveResultSets=True"
-
-                ));
+                bool roleExists = await roleManager.RoleExistsAsync(rolename);
+                if (!roleExists)
+                {
+                    IdentityRole role = new IdentityRole();
+                    role.Name = rolename;
+                    IdentityResult result = await roleManager.CreateAsync(role);
+                }
+            }
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
