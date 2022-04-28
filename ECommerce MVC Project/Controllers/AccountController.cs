@@ -4,15 +4,14 @@ using ECommerce_MVC_Project.Models;
 using System.Threading.Tasks;
 using ECommerce_MVC_Project.ViewModels;
 
-
 namespace ECommerce_MVC_Project.Controllers
 {
     public class AccountController : Controller
     {
-        private SignInManager<User> _signInManager;
-        private UserManager<User> _userManager;
+        private SignInManager<Customer> _signInManager;
+        private UserManager<Customer> _userManager;
         private RoleManager<IdentityRole> _roleManager;
-        public AccountController(SignInManager<User> signInManager, UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
+        public AccountController(SignInManager<Customer> signInManager, UserManager<Customer> userManager, RoleManager<IdentityRole> roleManager)
         {
             _signInManager = signInManager;
             _userManager = userManager;
@@ -20,16 +19,14 @@ namespace ECommerce_MVC_Project.Controllers
             // CreateRoles(roleManager);
 
         }
-
         public IActionResult Login()
         {
-            if (this.User.Identity.IsAuthenticated)
+            if (User.Identity.IsAuthenticated)
             {
                 return RedirectToAction("Index", "Home");
             }
             return View();
         }
-
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel loginView)
         {
@@ -52,7 +49,7 @@ namespace ECommerce_MVC_Project.Controllers
         {
             if (ModelState.IsValid)
             {
-                User newuser = new User()
+                Customer newuser = new Customer()
                 {
                     FirstName = registerViewModel.FirstName,
                     LastName = registerViewModel.LastName,
@@ -86,6 +83,10 @@ namespace ECommerce_MVC_Project.Controllers
 
         }
 
+
+
+        // this method can also be synchronous
+
         public IActionResult Index()
         {
             return View();
@@ -94,6 +95,7 @@ namespace ECommerce_MVC_Project.Controllers
         {
             return View();
         }
+
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();

@@ -5,10 +5,11 @@ namespace ECommerce_MVC_Project.Models
     {
         List<Product> Products { get; set; }
         IEnumerable<Product> InitializeData();
-        Product GetProductById(int? id);
+        Product GetProduct(int? id);
         void AddProduct(Product product);
+        void DeleteProduct(int? product);
         void UpdateProduct(Product product);
-        void DeleteProduct(int? id);
 
+        
     }
 }

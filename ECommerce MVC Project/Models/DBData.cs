@@ -1,34 +1,57 @@
-﻿using System.Collections.Generic;
+﻿//using System.Collections.Generic;
 
-namespace ECommerce_MVC_Project.Models
-{
-    public class DBData : IData
-    {
-        public List<Product> Products { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
+//namespace ECommerce_MVC_Project.Models
+//{
+//    public class DBData : IData
+//    {
+//        public List<Product> Products { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
 
-        public void AddProduct(Product product)
-        {
-            throw new System.NotImplementedException();
-        }
+//        private ProductContext _productContext;
+//        public DBData(ProductContext productContext)
+//        {
+//            _productContext = productContext;
+//        }
 
-        public void DeleteProduct(int? id)
-        {
-            throw new System.NotImplementedException();
-        }
+//        public void AddProduct(Product product)
+//        {
 
-        public Product GetProductById(int? id)
-        {
-            throw new System.NotImplementedException();
-        }
+//            _productContext.Products.Add(product);
+//            _productContext.SaveChanges();
+//        }
 
-        public IEnumerable<Product> InitializeData()
-        {
-            throw new System.NotImplementedException();
-        }
+//        public void DeleteProduct(int? id)
+//        {
+//            var prod = _productContext.Products.Find(id);
+//            if (prod != null)
+//            {
+//                _productContext.Products.Remove(prod);
+//                _productContext.SaveChanges();
+//            }
 
-        public void UpdateProduct(Product product)
-        {
-            throw new System.NotImplementedException();
-        }
-    }
-}
+//        }
+
+//        public Product GetProduct(int? id)
+//        {
+//            return _productContext.Products.Find(id);
+//        }
+
+//        public IEnumerable<Product> InitializeData()
+//        {
+//            return _productContext.Products;
+//        }
+
+//        public void UpdateProduct(Product product)
+//        {
+//            Product prod = _productContext.Products.Find(product.Id);
+//            if (product != null)
+//            {
+//                prod.Id = product.Id;
+//                prod.Name = product.Name;
+//                prod.Description = product.Description;
+//                prod.Price = product.Price;
+//                prod.ImageName = product.ImageName;
+//                _productContext.SaveChanges();
+//            }
+//        }
+//    }
+//}

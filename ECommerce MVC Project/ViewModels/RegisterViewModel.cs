@@ -13,5 +13,6 @@ namespace ECommerce_MVC_Project.ViewModels
         [Required(ErrorMessage = "Please add email")]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+
     }
 }

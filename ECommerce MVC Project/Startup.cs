@@ -6,11 +6,15 @@ using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
 using ECommerce_MVC_Project.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using ECommerce_MVC_Project.DB_Data;
+
 
 
 
@@ -28,19 +32,33 @@ namespace ECommerce_MVC_Project
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
-            services.AddScoped<IData,DBData>();
-            //services.AddDbContext<ProductContext>(options => options.UseSqlServer("Server=Desktop-TN2F3BI;Database=LacedUp;Trusted_Connection=True;MultipleActiveResultSets=True"));
-            //services.AddIdentity<User, IdentityRole>(options =>
-            //{
-            //    options.Password.RequiredLength = 8;
 
-            //}).AddEntityFrameworkStores<UserContext>();
-            //services.AddDbContext<UserContext>(options => options.UseSqlServer("Server=Desktop-TN2F3BI;Database=LacedUpUsers;Trusted_Connection=True;MultipleActiveResultSets=True"
+            services.AddControllersWithViews();
+            //step 5 
+            //restiering services
+            //services.AddSingleton<IData, Data>();
+            //services.AddScoped<IData, DBData>();
+            //services.AddDbContext<EmployeeContext>(options => options.UseSqlite("Data Source=Employees.db"));
+            //services.AddDbContext<ProductContext>(options => options.UseSqlServer("Server=Desktop-TN2F3BI;Database=GloboShoes;Trusted_Connection=True;MultipleActiveResultSets=True"));
+
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddIdentity<Customer, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 8;
+
+            }).AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddSession();
+
+            //services.AddDbContext<CustomerContext>(options => options.UseSqlServer("Server=Desktop-TN2F3BI;Database=Customers;Trusted_Connection=True;MultipleActiveResultSets=True"
 
             //    ));
 
-            services.AddDbContext<ApplicationDBContext>
+
+
         }
         static async Task CreateRoles(RoleManager<IdentityRole> roleManager)
         {
@@ -57,18 +75,30 @@ namespace ECommerce_MVC_Project
             }
         }
 
+
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, RoleManager<IdentityRole> roleManager)
         {
+            //productContext.Database.EnsureCreated();
+            //userContext.Database.EnsureCreated();
+            //userContext.Dispose();
+            // create 2 roles
+            //     CreateRoles(roleManager);
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                
             }
-            else
+            else if (env.IsProduction())
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Error.html");
             }
             app.UseStaticFiles();
+
+            app.UseSession();
+
+            app.UseAuthentication();
 
             app.UseRouting();
 
