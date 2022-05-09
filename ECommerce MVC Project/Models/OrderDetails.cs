@@ -14,11 +14,15 @@ namespace ECommerce_MVC_Project.Models
         public int OrderId { get; set; }
         [Display(Name = "Product")]
         public int ProductId { get; set; }
+        [Display(Name ="Customer")]
+        public string UserId { get; set; }
 
         [ForeignKey("OrderId")]
         public Order Order { get; set; }
         [ForeignKey("ProductId")]
         public Product Products { get; set; }
+        [ForeignKey("UserId")]
+        public Customer Customers { get; set; }
 
     }
 }

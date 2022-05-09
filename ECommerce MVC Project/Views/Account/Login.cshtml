@@ -1,5 +1,4 @@
 ﻿@model   ECommerce_MVC_Project.ViewModels.LoginViewModel
-
 @{
     ViewData["Title"] = "Login";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -20,7 +19,8 @@
             </div>
             <div class="form-group">
                 <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
+                <input type="password" id="myInput" asp-for="Password" class="form-control" />
+                <input type="checkbox" onclick="myFunction()" /> Show Password
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
             <div class="form-group form-check">

@@ -36,7 +36,7 @@ namespace ECommerce_MVC_Project.Controllers
                 // user is authenticated
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Product");
+                    return RedirectToAction("Index", "Home");
                 }
             }
             ModelState.AddModelError("", "Failed to login");

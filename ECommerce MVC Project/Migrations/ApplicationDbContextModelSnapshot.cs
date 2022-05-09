@@ -38,9 +38,6 @@ namespace ECommerce_MVC_Project.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("OrderDate")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("OrderNo")
                         .HasColumnType("nvarchar(max)");
 
@@ -66,11 +63,16 @@ namespace ECommerce_MVC_Project.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("OrderId");
 
                     b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("OrderDetails");
                 });
@@ -333,6 +335,12 @@ namespace ECommerce_MVC_Project.Migrations
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("ECommerce_MVC_Project.Models.Customer", "Customers")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("Customers");
 
                     b.Navigation("Order");
 

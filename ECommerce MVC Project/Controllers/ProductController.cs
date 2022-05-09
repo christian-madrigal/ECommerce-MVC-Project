@@ -25,8 +25,29 @@ namespace ECommerce_MVC_Project.Controllers
             _db = db;
 
         }
+        public IActionResult Details(int? id)
+        {
+
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var product = _db.Products.FirstOrDefault(c => c.Id == id);
+             
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product);
+        }
+
+        [SimpleActionFilter]
+        [Authorize(Roles ="Admin")]
         public IActionResult Index()
         {
+            IndexViewModel model = new IndexViewModel();
+            model.Products= _db.Products.ToList();
             return View(_db.Products.ToList());
         }
 
@@ -44,6 +65,7 @@ namespace ECommerce_MVC_Project.Controllers
         }
 
         //Get Create method
+        [Authorize(Roles ="Admin")]
         public IActionResult Create()
         {
             return View();
@@ -52,31 +74,35 @@ namespace ECommerce_MVC_Project.Controllers
 
         //Post Create method
         [HttpPost]
-        public async Task<IActionResult> Create(Product product, IFormFile image)
+        [Authorize(Roles = "Admin")]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Product product)
         {
             if (ModelState.IsValid)
             {
-                var searchProduct = _db.Products.FirstOrDefault(c => c.Name == product.Name);
-                if (searchProduct != null)
-                {
-                    ViewBag.message = "This product is already exist";
-                    return View(product);
-                }
+                //var searchProduct = _db.Products.FirstOrDefault(c => c.Name == product.Name);
+                //if (searchProduct != null)
+                //{
+                //    ViewBag.message = "This product is already exist";
+                //    return View(product);
+                //}
 
-                if (image == null)
-                {
-                    product.ImageName = "Images/noimage.PNG";
-                }
+                //if (image == null)
+                //{
+                //    product.ImageName = "Images/noimage.PNG";
+                //}
+                
                 _db.Products.Add(product);
-                await _db.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                _db.SaveChanges();
+                //await _db.SaveChangesAsync();
+                return RedirectToAction("Index");
             }
-
-            return View(product);
+            return View();
         }
 
-        //GET Edit Action Method
 
+        [HttpGet]
+        [Authorize(Roles ="Admin")]
         public ActionResult Update(int? id)
         {
 
@@ -94,8 +120,9 @@ namespace ECommerce_MVC_Project.Controllers
             return View(product);
         }
 
-        //POST Edit Action Method
+
         [HttpPost]
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> Update(Product products)
         {
 
@@ -104,60 +131,54 @@ namespace ECommerce_MVC_Project.Controllers
             return View(products);
         }
 
-        //GET Details Action Method
-        public ActionResult Details(int? id)
+
+
+
+        [Authorize(Roles ="Admin")]
+        public async Task<IActionResult> Delete(int id)
         {
-
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var product = _db.Products
-                .FirstOrDefault(c => c.Id == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-            return View(product);
-        }
-
-        //GET Delete Action Method
-
-        public ActionResult Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var product = _db.Products.FirstOrDefault();
-            if (product == null)
-            {
-                return NotFound();
-            }
-            return View(product);
-        }
-
-
-        [HttpPost]
-        [ActionName("Delete")]
-        public async Task<IActionResult> DeleteConfirm(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
             var product = _db.Products.FirstOrDefault(c => c.Id == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-
             _db.Products.Remove(product);
             await _db.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index");
         }
+
+        //[Authorize(Roles = "Admin")]
+        //public ActionResult Delete(int? id)
+        //{
+        //    //if (id == null)
+        //    //{
+        //    //    return NotFound();
+        //    //}
+
+        //    var product = _db.Products.FirstOrDefault();
+        //    if (product == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    return View(product);
+        //}
+
+
+        //[HttpPost]
+        //[Authorize(Roles = "Admin")]
+        //[ActionName("Delete")]
+        //public async Task<IActionResult> DeleteConfirm(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    var product = _db.Products.FirstOrDefault(c => c.Id == id);
+        //    if (product == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    _db.Products.Remove(product);
+        //    await _db.SaveChangesAsync();
+        //    return RedirectToAction(nameof(Index));
+        //}
     }
 }

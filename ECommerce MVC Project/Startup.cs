@@ -56,9 +56,6 @@ namespace ECommerce_MVC_Project
             //services.AddDbContext<CustomerContext>(options => options.UseSqlServer("Server=Desktop-TN2F3BI;Database=Customers;Trusted_Connection=True;MultipleActiveResultSets=True"
 
             //    ));
-
-
-
         }
         static async Task CreateRoles(RoleManager<IdentityRole> roleManager)
         {
@@ -80,6 +77,7 @@ namespace ECommerce_MVC_Project
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, RoleManager<IdentityRole> roleManager)
         {
+            
             //productContext.Database.EnsureCreated();
             //userContext.Database.EnsureCreated();
             //userContext.Dispose();
@@ -102,6 +100,7 @@ namespace ECommerce_MVC_Project
 
             app.UseRouting();
 
+            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

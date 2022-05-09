@@ -11,6 +11,7 @@ namespace ECommerce_MVC_Project.Models
         {
             OrderDetails = new List<OrderDetails>();
         }
+        
         public int Id { get; set; }
         [Display(Name = "Order No")]
         public string OrderNo { get; set; }
@@ -25,7 +26,7 @@ namespace ECommerce_MVC_Project.Models
         [Required]
         public string Address { get; set; }
 
-        public DateTime OrderDate { get; set; }
+        //public DateTime OrderDate { get; set; }
 
         public virtual List<OrderDetails> OrderDetails { get; set; }
     }

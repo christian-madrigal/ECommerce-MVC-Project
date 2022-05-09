@@ -25,13 +25,26 @@ namespace ECommerce_MVC_Project.Controllers
 
 
         [AllowAnonymous]
-        public IActionResult Index(int? page)
+        public IActionResult Index()
         {
-            return View(_db.Products.ToList().ToPagedList(page ?? 1, 9));
+            return View();
 
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Shoes(int? page)
+        {
+            return View(_db.Products.ToList().ToPagedList(page ?? 1, 9));
+        }
+        public IActionResult Subscribe()
+        {
+            return View();
+        }
+        public IActionResult ContactUs()
         {
             return View();
         }
@@ -84,7 +97,7 @@ namespace ECommerce_MVC_Project.Controllers
             }
             products.Add(product);
             HttpContext.Session.Set("products", products);
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Shoes));
         }
         //GET Remove action methdo
         [ActionName("Remove")]
@@ -100,7 +113,7 @@ namespace ECommerce_MVC_Project.Controllers
                     HttpContext.Session.Set("products", products);
                 }
             }
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Cart));
         }
 
         [HttpPost]
@@ -117,7 +130,7 @@ namespace ECommerce_MVC_Project.Controllers
                     HttpContext.Session.Set("products", products);
                 }
             }
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Shoes));
         }
 
         //GET product Cart action method
@@ -130,6 +143,13 @@ namespace ECommerce_MVC_Project.Controllers
                 products = new List<Product>();
             }
             return View(products);
+        }
+
+
+
+        public IActionResult Check()
+        {
+            return View();
         }
     }
 }

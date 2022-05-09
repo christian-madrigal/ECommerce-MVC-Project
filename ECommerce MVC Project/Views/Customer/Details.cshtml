@@ -1,0 +1,59 @@
+﻿@model ECommerce_MVC_Project.Models.Customer
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/SiteManager.cshtml";
+}
+
+<h1>Details</h1>
+<div class="text-center">
+    <dl class="align-middle">
+        <dt>
+            @Html.DisplayNameFor(model=>model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model=>model.Id)
+
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model=>model.FirstName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model=>model.FirstName)
+
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model=>model.LastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model=>model.LastName)
+
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+                <dt>
+            @Html.DisplayNameFor(model => model.PasswordHash)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PasswordHash)
+        </dd>
+
+        
+    </dl>
+
+
+</div>
+
+
+@Html.ActionLink("Back to Customer", "Users", "Customer" )
+<br/>
+@Html.ActionLink("Back to Home", "Index", "Home")

@@ -1,0 +1,310 @@
+﻿++Solution 'ECommerce MVC Project' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:ECommerce MVC Project.sln
+++ECommerce MVC Project
+i:{00000000-0000-0000-0000-000000000000}:ECommerce MVC Project
+++Connected Services 
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:>749
+++Dependencies
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:>748
+++Properties
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\properties\
+++wwwroot
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\
+++Controllers
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\controllers\
+++AccountController.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\controllers\accountcontroller.cs
+++HomeController.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\controllers\homecontroller.cs
+++OrderController.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\controllers\ordercontroller.cs
+++ProductController.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\controllers\productcontroller.cs
+++DB Data
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\db data\
+++ApplicationDbContext.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\db data\applicationdbcontext.cs
+++Filters
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\filters\
+++SimpleActionFilter.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\filters\simpleactionfilter.cs
+++Migrations
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\migrations\
+++20220503195401_ECommerce MVC Project.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\migrations\20220503195401_ecommerce mvc project.cs
+++20220503195401_ECommerce MVC Project.Designer.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\migrations\20220503195401_ecommerce mvc project.designer.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\migrations\applicationdbcontextmodelsnapshot.cs
+++Models
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\models\
+++Customer.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\models\customer.cs
+++CustomerContext.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\models\customercontext.cs
+++Data.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\models\data.cs
+++DBData.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\models\dbdata.cs
+++ErrorViewModel.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\models\errorviewmodel.cs
+++IData.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\models\idata.cs
+++IndexViewModel.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\models\indexviewmodel.cs
+++Order.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\models\order.cs
+++OrderContext.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\models\ordercontext.cs
+++OrderDetails.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\models\orderdetails.cs
+++Product.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\models\product.cs
+++ProductContext.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\models\productcontext.cs
+++Utility
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\utility\
+++SessionExtensions.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\utility\sessionextensions.cs
+++ViewModels
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\viewmodels\
+++LoginViewModel.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\viewmodels\loginviewmodel.cs
+++RegisterViewModel.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\viewmodels\registerviewmodel.cs
+++Views
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\
+++Account
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\account\
+++Login.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\account\login.cshtml
+++Register.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\account\register.cshtml
+++Home
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\home\
+++Cart.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\home\cart.cshtml
+++Detail.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\home\detail.cshtml
+++Index.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\home\index.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\product\index.cshtml
+++Privacy.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\home\privacy.cshtml
+++Order
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\order\
+++Checkout.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\order\checkout.cshtml
+++Product
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\product\
+++Create.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\product\create.cshtml
+++Details.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\product\details.cshtml
+++Update.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\product\update.cshtml
+++Shared
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\shared\
+++_ViewImports.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\_viewstart.cshtml
+++appsettings.json
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\appsettings.json
+++Program.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\program.cs
+++Startup.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\startup.cs
+++No service dependencies discovered
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:>750
+++Analyzers
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:analyzers
+++Frameworks
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:frameworks
+++Packages
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:packages
+++launchSettings.json
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\properties\launchsettings.json
+++css
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\css\
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\css\
+++images
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\images\
+++js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\js\
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\
+++favicon.ico
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\favicon.ico
+++_Layout.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\shared\error.cshtml
+++appsettings.Development.json
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:c:\users\natali\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:c:\users\natali\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:c:\users\natali\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.16\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\microsoft.netcore.app
+++EntityFramework (6.4.4)
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:>768
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (5.0.16)
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:>766
+++Microsoft.EntityFrameworkCore (5.0.16)
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:>764
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.16)
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:>765
+++Microsoft.EntityFrameworkCore.Tools (5.0.16)
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:>767
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (5.0.2)
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:>769
+++X.PagedList.Mvc (8.0.7)
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:>771
+++X.PagedList.Mvc.Core (8.4.0)
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:>770
+++site.css
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\css\site.css
+++2.jpg
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\images\2.jpg
+++3.jpg
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\images\3.jpg
+++4.jpg
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\images\4.jpg
+++5.jpg
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\images\5.jpg
+++6.jpg
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\images\6.jpg
+++7.jpg
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\images\7.jpg
+++bg.jpg
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\images\bg.jpg
+++flyingbox.gif
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\images\flyingbox.gif
+++last.jpg
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\images\last.jpg
+++wallpaper.jpg
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\images\wallpaper.jpg
+++site.js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\js\site.js
+++bootstrap
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\
+++jquery
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery\
+++jquery-validation
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery-validation-unobtrusive\
+++dist
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery\dist\
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery\license.txt
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap.js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap-grid.css.map
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-reboot.css.map
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap.bundle.js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.js.map
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap-grid.min.css.map
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-reboot.min.css.map
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap.bundle.js.map
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.min.js.map
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.bundle.min.js.map
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++20220504170358_Initial.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\migrations\20220504170358_initial.cs
+++20220504170358_Initial.Designer.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\migrations\20220504170358_initial.designer.cs
+++Order.cshtml
+++View.cshtml
+++OrderComplete.cshtml
+++NewFolder
+++Area
+++Customer
+++20220506002639_Updates.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\migrations\20220506002639_updates.cs
+++20220506002639_Updates.Designer.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\migrations\20220506002639_updates.designer.cs
+++Check.cshtml
+++Checking.cshtml
+++20220506153654_CustomerIDadded.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\migrations\20220506153654_customeridadded.cs
+++20220506153654_CustomerIDadded.Designer.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\migrations\20220506153654_customeridadded.designer.cs
+++20220506184104_Updated.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\migrations\20220506184104_updated.cs
+++20220506184104_Updated.Designer.cs
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\migrations\20220506184104_updated.designer.cs
+++Shoes.cshtml
+i:{9ab28ddc-53be-4f17-8efd-933d482a0841}:d:\mssa training\ecommerce mvc project\views\home\shoes.cshtml

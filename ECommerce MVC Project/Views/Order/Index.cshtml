@@ -1,0 +1,83 @@
+﻿@using ECommerce_MVC_Project.Models
+@model IEnumerable<Order>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/SiteManager.cshtml";
+}
+
+<br /><br />
+<div class="row">
+    <div class="col-6">
+        <h2 class="text-info">Product List</h2>
+    </div>
+    <div class="col-6 text-right">
+        <a asp-action="Create" class="btn btn-info"><i class="fas fa-plus"></i>&nbsp; Add New Product</a>
+    </div>
+
+</div>
+<form method="post">
+    <div class="row">
+        <div class="col-3">
+            <input type="number" class="form-control" name="lowAmount"/>
+        </div>
+        <div class="col-3">
+            <input type="number" class="form-control" name="largeAmount"/>
+        </div>
+        <div class="col-3">
+            <input type="submit" value="Search" class="btn btn-success"/>
+        </div>
+        
+    </div>
+</form>
+<br />
+<div>
+<table class="table">
+<thead>
+    <tr>
+        <th>
+                @Html.DisplayNameFor(c => c.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(c => c.OrderNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(c => c.Name)
+            </th>
+
+            <th></th>
+            <th></th>
+            <th></th>
+
+    </tr>
+        </thead>
+       
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.OrderNo</td>
+                    <td>@item.Name</td>
+@*                    <td>
+                        <partial name="_ButtonPartial" model="@item.Id" />
+                    </td>*@
+                     <td> 
+
+               <a asp-action="Details"asp-route-id ="@item.Id">Details</a>
+           </td>
+            <td> 
+
+               <a asp-action="Delete"asp-route-id ="@item.Id">Delete</a>
+           </td>
+            <td> 
+
+               <a asp-action="Update"asp-route-id ="@item.Id">Update</a>
+           </td>
+                </tr>
+            }
+        </tbody>
+
+
+</table>
+</div>

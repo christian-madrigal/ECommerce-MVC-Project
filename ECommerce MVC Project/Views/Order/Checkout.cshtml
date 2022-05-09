@@ -4,21 +4,27 @@
 @inject IHttpContextAccessor HttpContextAccessor
 @{
     ViewData["Title"] = "Order Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @{
 
     List<Product> products = HttpContextAccessor.HttpContext.Session.Get<List<Product>>("products");
-   
+    List<Customer> customers = HttpContextAccessor.HttpContext.Session.Get<List<Customer>>("customers");
+
     if (products == null)
     {
         products=new List<Product>();
+    }
+    if (customers==null)
+    {
+        customers = new List<Customer>();
     }
 
 }
 <br />
 
 <h2 class="text-info">Order Details</h2>
-<form asp-action="" method="post" enctype="multipart/form-data">
+<form asp-action="Checkout" method="post" enctype="multipart/form-data">
     <div class="p-4 rounded border row">
         <div asp-validation-summary="ModelOnly" class="text-danger">
 
@@ -67,19 +73,11 @@
                 </div>
                
             </div>
-            <div class="form-group row">
-                <div class="col-4">
-                    <label asp-for="OrderDate"></label>
-                </div>
-                <div class="col-8">
-                    @*<select asp-for="SpecialTagId" asp-items="ViewBag.TagId" class="form-control"></select>*@
-                    <input asp-for="OrderDate" type="text" readonly="readonly" class="form-control" />
-                    <span asp-validation-for="OrderDate" class="text-danger"></span>
-                </div>
+
                 
             </div>
 
-        </div>
+    
 
         <div class="col-6">
             <table class="table table-bordered">
@@ -95,7 +93,7 @@
                 {
                     <tr>
                         <td>
-                            <img src="~/@item.ImageName" height="100px" width="150px"/>
+                            <img src="~/images/@item.ImageName" height="100px" width="150px"/>
                         </td>
                         <td>@item.Name</td>
                         <td>@item.Price</td>
@@ -110,22 +108,63 @@
                 <input type="submit" value="Place Order" class="btn btn-success"/>
             </div>
         </div>
+    </div>
+    <br />
+    <br />
+        <div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script>
+    function initPayPalButton() {
+      paypal.Buttons({
+        style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'paypal',
+          
+        },
+
+        createOrder: function(data, actions) {
+          return actions.order.create({
+            purchase_units: [{"amount":{"currency_code":"USD","value":1}}]
+          });
+        },
+
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(orderData) {
+            
+            // Full available details
+            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+            // Show a success message within this page, e.g.
+            const element = document.getElementById('paypal-button-container');
+            element.innerHTML = '';
+            element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+            // Or go to another URL:  actions.redirect('thank_you.html');
+            
+          });
+        },
+
+        onError: function(err) {
+          console.log(err);
+        }
+      }).render('#paypal-button-container');
+    }
+    initPayPalButton();
+  </script>
        
 
-    </div>
+    
 </form>
 
 @section Scripts{
     @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-    <script>
-        $(document).ready(function() {
-            $("#OrderDate").datepicker({
-                showAnim: "slide",
-                changeMonth: true,
-                changeYear:true
-            });
-        });
-    </script>
+  
   
 }
 
