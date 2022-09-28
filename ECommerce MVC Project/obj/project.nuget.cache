@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KES2lHH+sXXA1KX05pgU0WtDiH7vxDttR4J+g1tNxSIzlgVh0wfIuekmq9GubRP4accgQSGDInaI+tKb1h0sog==",
+  "dgSpecHash": "uGuvvZejlNgP3Bt/Vb7xitxyuf1V85hHeI2csg8I8dqEmayFDt1yMkL7zmTQi5FAhtnePMEL0XM3ckRsNf6kOw==",
   "success": true,
-  "projectFilePath": "D:\\MSSA Training\\ECommerce MVC Project\\ECommerce MVC Project.csproj",
+  "projectFilePath": "C:\\Users\\Natali\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\ECommerce MVC Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Natali\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Natali\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

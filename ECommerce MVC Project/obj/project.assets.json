@@ -10527,11 +10527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MSSA Training\\ECommerce MVC Project\\ECommerce MVC Project.csproj",
+      "projectUniqueName": "C:\\Users\\Natali\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\ECommerce MVC Project.csproj",
       "projectName": "ECommerce MVC Project",
-      "projectPath": "D:\\MSSA Training\\ECommerce MVC Project\\ECommerce MVC Project.csproj",
+      "projectPath": "C:\\Users\\Natali\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\ECommerce MVC Project.csproj",
       "packagesPath": "C:\\Users\\Natali\\.nuget\\packages\\",
-      "outputPath": "D:\\MSSA Training\\ECommerce MVC Project\\obj\\",
+      "outputPath": "C:\\Users\\Natali\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
