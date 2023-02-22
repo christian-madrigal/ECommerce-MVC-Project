@@ -377,3 +377,16 @@ C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj
 C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net5.0\ECommerce MVC Project.pdb
 C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net5.0\ECommerce MVC Project.genruntimeconfig.cache
 C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net5.0\ref\ECommerce MVC Project.dll
+C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\bin\Debug\net5.0\System.Web.Mvc.dll
+C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\bin\Debug\net5.0\X.PagedList.Web.Common.dll
+C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net5.0\staticwebassets\ECommerce MVC Project.StaticWebAssets.Pack.cache
+C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net5.0\staticwebassets\msbuild.ECommerce MVC Project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net5.0\staticwebassets\msbuild.build.ECommerce MVC Project.props
+C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.ECommerce MVC Project.props
+C:\Users\Natali\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.ECommerce MVC Project.props
