@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using ECommerce_MVC_Project.DB_Data;
 using ECommerce_MVC_Project.Utility;
-using X.PagedList;
+using X.PagedList.Extensions;
 
 
 namespace ECommerce_MVC_Project.Controllers

@@ -1,0 +1,631 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\ecommerce mvc project.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:ecommerce mvc project.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\shared\\sitemanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\shared\\sitemanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\models\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:models\\indexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\customer\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\customer\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\customer\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\customer\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\db data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:db data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\home\\subscribe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\home\\subscribe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\home\\shoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\home\\shoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\order\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\order\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|c:\\users\\natali\\onedrive\\documents\\github\\ecommerce-mvc-project\\ecommerce mvc project\\migrations\\20220508101007_orderinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB28DDC-53BE-4F17-8EFD-933D482A0841}|ECommerce MVC Project.csproj|solutionrelative:migrations\\20220508101007_orderinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-24T04:07:12.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T04:00:13.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ECommerce MVC Project",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\ECommerce MVC Project.csproj",
+              "RelativeDocumentMoniker": "ECommerce MVC Project.csproj",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\ECommerce MVC Project.csproj",
+              "RelativeToolTip": "ECommerce MVC Project.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-24T03:55:48.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Customer\\Users.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Users.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Customer\\Users.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Users.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T03:55:31.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Models\\IndexViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\IndexViewModel.cs",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Models\\IndexViewModel.cs",
+              "RelativeToolTip": "Models\\IndexViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T03:55:31.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SiteManager.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Shared\\SiteManager.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\SiteManager.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Shared\\SiteManager.cshtml",
+              "RelativeToolTip": "Views\\Shared\\SiteManager.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwDUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T03:55:31.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T03:55:31.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T03:55:31.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Customer\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Customer\\Update.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Customer\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Customer\\Details.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T03:55:31.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T03:55:31.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\DB Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DB Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\DB Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DB Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T03:55:31.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAA0AAAAAAAAAAABBwDYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-24T03:55:31.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-24T03:55:31.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Home\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Home\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Home\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Subscribe.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Home\\Subscribe.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Subscribe.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Home\\Subscribe.cshtml",
+              "RelativeToolTip": "Views\\Home\\Subscribe.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "Views\\Product\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Shoes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Home\\Shoes.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Shoes.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Home\\Shoes.cshtml",
+              "RelativeToolTip": "Views\\Home\\Shoes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Order\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Order\\Update.cshtml",
+              "RelativeToolTip": "Views\\Order\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T03:55:31.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Order\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Order\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\Order\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwCsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Models\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDetails.cs",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Models\\OrderDetails.cs",
+              "RelativeToolTip": "Models\\OrderDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T03:55:31.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "Views\\Order\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ContactUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Home\\ContactUs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ContactUs.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Home\\ContactUs.cshtml",
+              "RelativeToolTip": "Views\\Home\\ContactUs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T03:55:31.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20220508101007_orderinformation.cs",
+              "DocumentMoniker": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Migrations\\20220508101007_orderinformation.cs",
+              "RelativeDocumentMoniker": "Migrations\\20220508101007_orderinformation.cs",
+              "ToolTip": "C:\\Users\\Natali\\OneDrive\\Documents\\GitHub\\ECommerce-MVC-Project\\ECommerce MVC Project\\Migrations\\20220508101007_orderinformation.cs",
+              "RelativeToolTip": "Migrations\\20220508101007_orderinformation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T03:55:31.442Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

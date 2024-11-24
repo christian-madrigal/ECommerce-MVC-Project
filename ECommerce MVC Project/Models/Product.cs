@@ -9,9 +9,8 @@ namespace ECommerce_MVC_Project.Models
     public class Product
     {
         [Display(Name = "Item ID")]
-        [Required]
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         [Display(Name = "Shoe Name")]
