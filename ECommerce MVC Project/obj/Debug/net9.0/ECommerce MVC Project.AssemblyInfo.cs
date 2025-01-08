@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ECommerce MVC Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e31045e750da175ba92bfc0c1d1976839a989134")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+036da4a0e30bdb6903ac79fc8b2008e7f33f50e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ECommerce MVC Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ECommerce MVC Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
