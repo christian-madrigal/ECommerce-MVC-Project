@@ -306,12 +306,6 @@ C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Pr
 C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\staticwebassets\msbuild.ECommerce MVC Project.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\staticwebassets\msbuild.ECommerce MVC Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\staticwebassets\msbuild.build.ECommerce MVC Project.props
-C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.ECommerce MVC Project.props
-C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.ECommerce MVC Project.props
-C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\ECommerc.73E15D60.Up2Date
 C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\ECommerce MVC Project.dll
@@ -319,3 +313,8 @@ C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Pr
 C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\ECommerce MVC Project.pdb
 C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\ECommerce MVC Project.genruntimeconfig.cache
 C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\ref\ECommerce MVC Project.dll
+C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Natali\OneDrive\Documents\GitHub\ECommerce-MVC-Project\ECommerce MVC Project\obj\Debug\net9.0\staticwebassets.build.json.cache
